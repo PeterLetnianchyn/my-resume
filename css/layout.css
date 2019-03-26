@@ -1,0 +1,51 @@
+@media screen and (max-width: 777px) {
+  .topnav{
+  	display: block;
+  	}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .topnav.responsive {
+  	position: relative;
+  	transition-duration: 3s
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    transition: 0.5s;
+    }
+}
+@media screen and (max-width: 505px) {
+  #animate2{
+    font-size: 45px; 
+    } 
+  .banner{
+    height:350px;
+    }
+    
+}
+@media screen and (max-width: 385px) {
+  #animate1{
+    font-size: 15px;
+    }
+  #animate2{
+    font-size: 40px;
+    }
+    hr{
+      width: 180px;
+      height: 3px;
+      }
+      .banner{
+    height:310px;
+    }
